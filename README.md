@@ -9,6 +9,8 @@ $ sudo -u postgres psql
 psql=# alter user root with encrypted password 'root'; 
 psql=# grant all privileges on database scramword to root ;
 
+## UPDATE COMPOSSER
+composer update
 ## MIGRATION
 php artisan migrate
 ## SEEDING
