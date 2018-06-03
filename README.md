@@ -14,4 +14,5 @@ composer update
 ## MIGRATION
 php artisan migrate
 ## SEEDING
-php artisan db:seed
+php artisan db:seed --class=ScoreTableSeeder
+php artisan db:seed --class=WordTableSeeder
